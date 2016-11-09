@@ -11,11 +11,12 @@ you can find the source code of many kernel-level
 NT API functions and study them.
 
 # Uses
-You can find there the full source codes of many APIs
+You can find here the full source codes of many APIs
 and structures, which aren't defined in the public
-API Headers. This can be used to find exploits,
+API Headers. WRK can be used to study the kernel, find potential exploits or
 make your kernel modules harder to reverse by using the
-actual source of an API instead of importing by name.
+actual source of a structure/API instead of importing it from
+ntoskrnl.exe.
 
 Sky is the limit.
 
